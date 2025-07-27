@@ -1,1 +1,3 @@
 # TimeSeriesAnalysisAndForecastingOfStockMarket
+Time series forecasting involves using historical, time-stamped data to predict future values. This project applies time series models (ARIMA, SARIMA, Prophet, LSTM) to forecast stock prices of Microsoft (ticker MSFT) from 1986 to 2025.
+ Model accuracy is evaluated using Root Mean Square Error (RMSE). Results indicate that the ARIMA model yielded the lowest RMSE on our test data, suggesting it captured the trend most accurately. A Streamlit web dashboard was implemented to display the historical data, model forecasts, and error metrics interactively. 
